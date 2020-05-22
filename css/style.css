@@ -1,0 +1,1648 @@
+/* typo */
+
+body{
+   font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+h1, h2, h3,h4{
+   font-family: 'Playfair Display', serif;
+   font-weight: 700;
+   margin-bottom: 0.5em;
+}
+main{
+ 
+   margin: 0 auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+nav{
+   height: 100px;
+   width: 100vw;
+   background-color:#dfbec0;
+}
+.img-background{
+   position: absolute;
+   margin-top: -80px;
+   width: 60%;
+    right: 0px;
+    z-index: -1;
+}
+.blok{
+margin-top: -100px;
+/* margin-left: 2em; */
+float: left;
+
+}
+nav ul{
+   float: left;
+}
+
+nav ul li{
+   float: left;
+   margin: 0 40px;
+   line-height: 100px;
+}
+
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+h1{
+   color: black;
+   font-size: 20px;
+   margin-bottom: 1em;
+   margin-left: 8em;
+   margin-top: 200px;
+   /* margin: 0 auto; */
+   float: left;
+}
+
+h2{
+   color: black;
+   font-size: 40px;
+   /* margin-bottom: 2em; */
+   /* margin-left: 2.5em;   */
+   /* margin: 0 auto; */
+   margin-left: -11em;
+   margin-top: 250px;
+   float: left;
+}
+.text{
+   color: black;
+   font-size: 20px;
+   /* margin-bottom: 2em; */
+   margin-left: -26em;  
+   margin-top: 320px;
+   /* margin: 0 auto; */ 
+   float: left;
+}
+.text2{
+   color: black;
+   font-size: 20px;
+   /* margin-bottom: 2em; */
+   margin-left: -24em;  
+   margin-top: 350px;
+   /* margin: 0 auto; */ 
+   float: left;
+}
+.img3{
+   width: 70px;
+   height: 70px;
+   margin-left: -20em;  
+   margin-top: 410px;
+   padding-bottom: 50px;
+   float: left;
+}
+
+.img4{
+   width: 70px;
+   height: 70px;
+   margin-left: -13em;  
+   margin-top: 410px;
+   float: left;
+}
+footer{
+   background-color:grey;
+   text-align: center;
+   color: white;
+   margin: 0 auto;
+   max-width: 1000px;
+   margin-top: 50px;
+   border-style: double;
+   border-color: white;
+   border-width: 5px;
+   border-radius: 10px;
+}
+
+header.nav{
+   height: 100px;
+   background-color:#dfbec0;
+}
+h3{
+   margin-top: 10px;
+}
+.ac{
+     max-width: 984px;
+     /* margin: 0 auto; */
+     margin-left: 20%;
+     text-align: center;
+}
+
+.img{
+   width: 350px;
+   height: 350px;
+   margin-right: 450px;
+   /* padding-top: 50px; */
+   padding-bottom: 50px;
+   margin-top: -370px;
+   float: right;
+}
+
+.img2{
+   width: 350px;
+   height: 350px;
+   margin-right: 100px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   float: right;
+}
+#accoBtn{
+   /* display: inline-block;
+   background-color: green;
+   text-align: center;  */
+   /* margin: 0 40px; */
+   /* padding: 50px 30px; */
+   /* border-radius: 30px; */
+   /* margin-bottom: 2em; */
+   /* color: white;
+   margin-left: 1000px;
+   margin-top: 20px; */
+   /* padding-bottom: -40px; */
+   /* height: 60px;
+   width: 100px; */
+   /* margin-top: 400px; */
+}
+img{
+   height: 100%;
+}
+
+/* .img-background{
+   width: 100%;
+   height: 100%;
+   background-image: url("/img/boom@2x.png");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #ccc;
+} */
+
+.ui-accordion-header-collapsed{
+   border-color: black;
+   color: grey;
+   /* margin-bottom: em; */
+}
+
+.clear{
+   clear: both;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+   html{
+       background: grey;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .img-cat{
+       width: 200px;
+       margin: 20px;
+   }
+}
+
+@media only screen and (max-width: 520px) {
+   .img-cat{
+       width: 200px;
+       margin: 0 auto;
+       float: none;
+   }
+}
+@font-face{
+   font-family: royalacid;
+   src: url(../fonts/Royalacid.ttf);
+  }
+  
+  .clear{
+   clear: both;
+  }
+  
+  .header{
+   height: 500px;
+   width: 100%;
+   background-color: #BFB1B0;
+  }
+  .headerpicture{
+   margin-left: -160px;
+   margin-top: 13px;
+   height: 500px;
+   z-index: -1;
+  }
+  
+  .roots{
+   font-family: royalacid;
+   margin-top: -200px;
+   margin-left: 40%;
+   color: white;
+   font-size: 125px;
+  }
+  .marmerbackground{
+    background-image: url(../img/marmer.png);
+    width: 100%;
+    height: 1000px;
+    margin-top: -200px;
+  }
+  .blaadje1{
+   margin-left: -2%;
+   margin-top: -30px;
+   height: 300px;
+   transform: rotate(70deg);
+   float: left;
+  }
+  
+  .blaadje2{
+   margin-left: 48%;
+   height: 300px;
+   transform: rotate(250deg);
+   margin-top: 5px;
+  }
+  
+  .tekst1{
+   width: 600px;
+   margin-top: -1150px;
+   margin-left: 42%;
+   font-family: royalacid;
+   color:#707070;
+   font-size: 40px;
+   position: relative;
+   border-style:solid; 
+   border-color:white;
+   background-color: white;
+   border-width: 20px;
+  }
+  .tekst2{
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 43%;
+  font-family:royalacid;
+  color:#707070;
+  font-size: 30px;
+  position: relative;
+  border-style:solid; 
+  border-color:white;
+  background-color: white;
+  border-width: 20px;
+  }
+  
+  .quote1{
+   font-family: royalacid;
+   margin-top: 400px;
+   margin-left: 200px;
+   width: 75%;
+   color: #707070;
+   font-size: 80px;
+   text-align: center;
+  
+  }
+  .blaadje3{
+   margin-top: 80px;
+   margin-right: 3%;
+   height: 300px;
+   float: right;
+   transform: rotate(250deg);
+  }
+  
+  .middenblock{
+   width: 100%;
+   margin-top:100px;
+   background-color: #D7DBD1;
+   padding-bottom: 170px;
+  }
+  
+  .article1{
+   padding-top: 130px;
+   width: 30%;
+   height: 500px;
+   margin-left: 20%;
+   margin-top: 260px;
+  }
+  .article2{
+   width: 30%;
+   height: 500px;
+   margin-left:52%;
+   margin-top: -500px;
+  }
+  .article3{
+   width: 30%;
+   height: 500px;
+   margin-left: 20%;
+   margin-top: 130px;
+  }
+  .article4{
+   width: 30%;
+   height: 500px;
+   margin-top: -500px;
+   margin-left: 52%;
+  }
+  
+  .article-image{
+   width: 100%;
+  }
+  .witblock{
+   height: 30%;
+   width: 100%;
+   background-color: white;
+   padding-top: 1px;
+  }
+  .tekst-article{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #707070;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+  }
+  
+  .qoute-background{
+   background-image: url(../img/marmer.png);
+   width: 100%;
+   height: 200px;
+   padding-top: 100px;
+  }
+  
+  .quote2{
+   font-family: royalacid;
+   margin-left: 7%;
+   width: 85%;
+   color: #707070;
+   font-size: 60px;
+   text-align: center;
+  }
+  .blaadje4{
+   margin-left: 4%;
+   margin-top:20px;
+   height: 160px;
+   float: left;
+   transform: rotate(350deg);
+  }
+  .bottomblock1{
+   height: 100px;
+   width: 100%;
+   background-color: #ECA4A6;
+  }
+  .logo{
+   top: -80px;
+   margin-left:46%;
+   height: 50px;
+  }
+  
+  .bottomblock2{
+   margin-top: -60px;
+   height: 300px;
+   width: 100%;
+   background-color: #BFB1B0;
+  
+  }
+  .social{
+   height: 100%;
+   width: 100%;
+   margin-top: -200px;
+   margin-left: 500px;
+  }
+  .social-image1{
+   height: 50%;
+   width: auto;
+   margin-left: 50%;
+   padding-top: 8%;
+  }
+  .social-image2{
+   height: 50%;
+   width: auto;
+   padding-top: 8%;
+  }
+  .social-image3{
+   height: 50%;
+   width: auto;
+   padding-top: 8%;
+  }
+  .topblock{
+   width: 100%;
+   background-color: #ECA4A6;
+  }
+  .middleblock{
+   width: 100%;
+   height: 50px;
+   background-color: #D7DBD1;
+  }
+  .bottomblock{
+   width: 100%;
+   height: 200px;
+   background-color: #BFB1B0;
+  }
+  .bottomleft{
+   width: 50%;
+   height: 100%;
+  }
+  .bottomright{
+   width: 50%;
+   height: 100%;
+  }
+  .roots-bottom{
+   font-family: royalacid;
+   color: white;
+   font-size: 100px;
+   margin-left: 200px;
+   padding-top: 58px;
+  }
+  
+  
+  
+  
+  
+  
+  /*1235*/
+  @media only screen and (max-width: 1235px) {
+  .header{
+   max-width:100%;
+   height: 600px;
+  }
+  .roots{
+   margin-top: -15%;
+   font-size: 100px;
+   margin-left: 40%;
+  }
+  
+  .headerpicture{
+   margin-left: -7%;
+   margin-top: 2%;
+   height: 55%;
+  
+  }
+  .blaadje1{
+   margin-left: 0%;
+   height: 250px;
+  }
+  
+  .blaadje2{
+   margin-top: -220px;
+   margin-left: 69%;
+   height: 250px;
+  }
+  
+  .tekst1{
+   margin-top: -650px;
+   margin-left: 37%;
+   font-size: 30px;
+   width: 500px;
+  }
+  
+  .tekst2{
+   margin-top: 68px;
+   margin-left: 37%;
+   font-size: 23px;
+  }
+  .marmerbackground{
+   height: 650px;
+  }
+  
+  .quote1{
+   margin-top: 70px;
+   margin-left: 70px;
+   width: 80%;
+   font-size: 50px;
+  }
+  .blaadje3{
+   margin-top: -100px;
+   height: 150px;
+   margin-right: 2%;
+  }
+  
+  .middenblock{
+   height: 1200px;
+   margin-top:-240px;
+  }
+  
+  .article3{
+   margin-top: 40px;
+  }
+  
+  .quote2{
+   margin-left: 2%;
+   width: 95%;
+   font-size: 50px;
+  }
+  .blaadje4{
+   margin-left: -6%;
+   margin-top:20px;
+   height: 150px;
+  }
+  .social{
+    margin-top: -240px;
+    margin-left: 70%;
+  }
+  .social-image1{
+   height: 30%;
+   padding-top: 20%;
+  }
+  .social-image2{
+   height: 30%;
+   padding-top: 20%;
+  }
+  .social-image3{
+   height: 30%;
+   padding-top: 20%;
+  }
+  
+  .roots-bottom{
+   font-size: 80px;
+   margin-left: 5%;
+  }
+  }
+  
+  
+  
+  
+  /*1150*/
+  @media only screen and (max-width: 1150px) {
+  .header{
+   max-width:100%;
+   height: 700px;
+  }
+  .roots{
+   margin-top: -150px;
+   font-size: 120px;
+   margin-left: 35%;
+  }
+  
+  .headerpicture{
+   margin-left: -2%;
+   margin-top: 7%;
+   height: 500px;
+  
+  }
+  .blaadje1{
+   margin-left: 0%;
+   height: 250px;
+   margin-top: 2%;
+  }
+  
+  .blaadje2{
+   margin-top: -300px;
+   margin-left: 69%;
+   height: 250px;
+  }
+  
+  .tekst1{
+   top: -500px;
+   margin: 0 auto;
+   font-size: 60px;
+   width: 820px;
+  }
+  
+  .tekst2{
+   top: -495px;
+   margin: 0 auto;
+   font-size: 48px;
+   float: none;
+   width: 800px;
+  }
+  .marmer1{
+   margin-top: -30%;
+   width: 100%;
+   height: 500px;
+  }
+  
+  .quote1{
+   padding-top: 400px;
+   margin: 0 auto;
+   width: 80%;
+   font-size: 65px;
+  }
+  .blaadje3{
+   height: 200px;
+   margin-right: 2%;
+   margin-top: -20px;
+  }
+  .middenblock{
+   height: 3500px;
+  }
+  .article-image{
+    width:550px;
+  }
+  .witblock{
+    width: 550px;
+    height: 250px;
+  }
+  .article1{
+   margin-left: 22%;
+  }
+  .tekst-article{ font-size: 40px;
+  }
+  .article2{
+    margin-left: 22%;
+    padding-top: 850px;
+   }
+   .article3{
+    margin-left: 22%;
+    padding-top: 300px;
+   }
+   .article4{
+    padding-top: 850px;
+    margin-left: 22%;
+   }
+  
+  .quote2{
+   margin: 0 auto;
+   width: 95%;
+   font-size: 50px;
+  }
+  .qoute-background{
+    height: 200px;
+  }
+  .blaadje4{
+   margin-left: -6%;
+   margin-top:20px;
+   height: 150px;
+  }
+  
+  .social-image1{
+   height: 30%;
+   padding-top: 20%;
+  }
+  .social-image2{
+   height: 30%;
+   padding-top: 20%;
+  }
+  .social-image3{
+   height: 30%;
+   padding-top: 20%;
+  }
+  
+  .roots-bottom{
+   font-size: 80px;
+   margin-left: 5%;
+  }
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 979px) {
+  .roots{
+  margin-top: -10%;
+  font-size: 60px;
+  margin-left: 40%;
+  }
+  
+  .headerpicture{
+  margin-left: 22%;
+  margin-top: 7%;
+  height: 55%;
+  height: 230px;
+  
+  }
+  .blaadje1{
+  margin-left: 0%;
+  margin-top: 20px;
+  height: 100px;
+  }
+  
+  .blaadje2{
+  margin-top: -270px;
+  margin-left: 80%;
+  height: 100px;
+  }
+  
+  .tekst1{
+  top: -350px;
+  font-size: 23px;
+  width: 320px;
+  }
+  
+  .tekst2{
+  top: -350px;
+  font-size: 17px;
+  width: 280px;
+  }
+  
+  .marmerbackground{
+    height: 500px;
+  }
+  .quote1{
+  margin-top: -500px;
+  width: 80%;
+  font-size: 50px;
+  }
+  .blaadje3{
+  margin-top: 0px;
+  height: 150px;
+  }
+  .middenblock{
+  height: 2000px;
+  margin-top: 43px;
+  }
+  .article-image{
+    width: 300px;
+  }
+  .witblock{
+    width: 300px;
+    height: 100px;
+  }
+  .article1{
+  margin-top: -50px;
+  margin-left: 27%;
+  }
+  .article2{
+    margin-top: 0px;
+    margin-left: 27%;
+    padding-top: 0px;
+  }
+  .article3{
+    margin-top: -40px;
+    margin-left: 27%;
+    padding-top: 50px;
+  }
+  .article4{
+    padding-top: 50px;
+    margin-top: -40px;
+    margin-left: 27%;
+  }
+  .tekst-article{
+    font-size: 15px;
+  }
+  .witblok{
+    height: 17%;
+  }
+  .quote2{
+  width: 95%;
+  font-size: 30px;
+  }
+  .blaadje4{
+  margin-left: -6%;
+  margin-top:20px;
+  height: 100px;
+  }
+  
+  .social-image1{
+  height: 17%;
+  padding-top: 20%;
+  }
+  .social-image2{
+  height: 17%;
+  padding-top: 20%;
+  }
+  .social-image3{
+  height: 17%;
+  padding-top: 20%;
+  }
+  
+  .roots-bottom{
+  font-size: 60px;
+  margin-left: 5%;
+  }
+  
+  }
+  
+  
+  /*753*/
+  @media only screen and (max-width: 753px) {
+  .roots-bottom{
+    font-size: 40px;
+  }
+  .quote1{
+    font-size: 30px;
+  }
+  }
+  
+  
+  
+  
+  
+  /*articlepage*/
+  
+  .header2{
+    height: 250px;
+    width: 100%;
+    background-color: #BFB1B0;
+  }
+    
+  .roots2{
+    font-family: royalacid;
+    margin-left: 500px;
+    color: white;
+    font-size: 125px;
+    padding-top: -19px;
+    width: 300px;
+    margin-top: 30px;
+  }
+    
+  .blaadje5{
+    margin-left: 1%;
+    height: 250px;
+    float: left;
+    margin-top: -30px;
+    transform: rotate(70deg)
+  }
+    
+  .blaadje6{
+    margin-top: 0px;
+    margin-left: 60%;
+    height: 250px;
+    transform: rotate(250deg);
+    position: absolute;
+  }
+    
+  .headerblock3{
+    margin-top: 15px;
+    height: 20%;
+    width: 100%;
+    background-color: #D7DBD1;
+  }
+   
+  .bovenstuk{
+    background-image: url(../img/marmer.png);
+  }
+  .title{
+    margin-left: 308px;
+    font-family: royalacid;
+    color:#707070;
+    font-size: 37px;
+    padding-top:50px;
+  }
+  .inhoud{
+    padding-top: 80px;
+    margin-left: 5%;
+    width: 52%;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+  }
+  .headerpicture2{
+   margin-right: 5%;
+   margin-top: 150px;
+   height: 350px;
+   float: right;
+  }
+  
+  .kopje1{
+    margin-left:5%;
+    margin-top: 350px;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+  }
+  .prikkels{
+    font-weight: bold;
+  }
+  
+  .blaadje7{
+    margin-top: 30px;
+    margin-left: 10%;
+    height: 300px;
+    float: left;
+    transform: rotate(350deg)
+  }
+  .kopje2{
+    margin-left:38%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  .beinvloed{
+    font-weight: bold;
+  }
+  .quote3{
+    font-family: royalacid;
+    padding-top: 40px;
+    margin-left: 200px;
+    width: 75%;
+    color: #707070;
+    font-size: 50px;
+    text-align: center;
+  }
+  .balken{
+    margin-top:10px;
+  }
+  .groen{
+   width: 100%;
+   height: 100px;
+   background-color:#D7DBD1;
+  }
+  .grijs{
+   width:100%;
+   height: 50px;
+   background-color: #BFB1B0;
+  }
+  .roze{
+   width:100%;
+   height: 50px;
+   background-color: #ECA4A6;
+  }
+  
+  .middenstuk{
+    background-image: url(../img/marmer.png);
+    margin-top:-5%;
+    height: 5000px;
+  }
+  .kopje3{
+    margin-left:5%;
+    margin-top: 5%;
+    width: 650px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    padding-top: 5%;
+  }
+  .reclame{
+    font-weight: bold;
+  }
+  .blaadje11{
+    margin-top: 4%;
+    margin-left: 10%;
+    height: 300px;
+    transform: rotate(350deg)
+  }
+  .kopje4{
+    margin-left:33%;
+    margin-top: -20%;
+    width: 900px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+  }
+  .visuele{
+    font-weight: bold;
+  }
+  .kopje5{
+    margin-left:5%;
+    margin-top: 7%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .designers{
+    font-weight: bold;
+  }
+  .blaadje12{
+    margin-top: 11%;
+    margin-right: 10%;
+    height: 300px;
+    transform: rotate(235deg);
+    float: right;
+  }
+  .quote4{
+    font-family: royalacid;
+    margin-top: 3%;
+    margin-left: 200px;
+    width: 75%;
+    color: #707070;
+    font-size: 50px;
+    text-align: center;
+  }
+    
+  .balken2{
+    margin-top: 3%;
+  }
+  .groenblock3{
+    height: 100px;
+    width: 100%;
+    background-color: #D7DBD1;
+  }
+  .rozeblock5{
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    background-color: #ECA4A6;
+  }
+  .blond{
+    margin-right: 5%;
+    margin-top: -1%;
+    height: 400px;
+    width: 400px; 
+    float: right;
+  
+  }
+  .kopje6{
+    margin-left:5%;
+    margin-top: 60px;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .vraag{
+    font-weight: bold;
+  }
+  .quote5{
+    font-family: royalacid;
+    margin-top: 30px;
+    margin-left: 12%;
+    width: 75%;
+    color: #707070;
+    font-size: 70px;
+    text-align: center;
+  }
+  .kopje7{
+    margin-left:5%;
+    margin-top: 5%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .mezelf{
+    font-weight: bold;
+  }
+  .blaadje13{
+    margin-top: 11%;
+    margin-right: 10%;
+    height: 300px;
+    transform: rotate(235deg);
+    float: right;
+  }
+  .blaadje14{
+    margin-top: 8%;
+    margin-left: 10%;
+    height: 300px;
+    transform: rotate(350deg);
+    float: left;
+  }
+  .kopje8{
+    margin-left:5%;
+    margin-top: 5%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .theo{
+    font-weight: bold;
+  }
+  
+  .middenstuk p{
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .kopje9{
+    margin-left:5%;
+    margin-top: 5%;
+    width: 750px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    float: left;
+  }
+  .bronnenlijst{
+    font-weight: bold;
+  }
+  .balken3{
+    margin-top: 3%;
+    margin-left: -9.5%;
+  }
+  .grijsblockbottom{
+    height: 60px;
+    width: 100%;
+    margin-top: 1300px;
+    background-color: #BFB1B0;
+  }
+  .groenblockbottom{
+    margin-top: 3%;
+    height: 100px;
+    width: 100%;
+    background-color: #D7DBD1;
+  }
+  .bottom3 h2{
+    margin-top: -500px;
+    margin-left: 5%;
+    width: 750px;
+    font-family: royalacid;
+    color: #707070;
+    font-size: 60px;
+    float: left;
+  }
+  .artikels{
+    float: right;
+    margin-top: -700px;
+  }
+  .tekst-article2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10%;
+  }
+  .witblock2{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    float: left;
+  }
+  .witblock3{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    float: left;
+  }
+  .tekst-article3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 33px;
+    padding-bottom: 15%;
+  }
+  .tekst-article4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 33px;
+    padding-bottom: 8%;
+  }
+  .article5{
+    width: 20%;
+    float: left;
+    margin-left: 25%;
+  }
+  .article6{
+    width: 20%;
+    margin-right: 10%;
+    padding-left: 3%;
+    padding-right: 5%;
+    float: left;
+  }
+  .article7{
+    width: 20%;
+    float: left;
+    margin-left: -12%;
+  }
+  .footer2{
+    width:100%;
+    margin-top: 100px;
+  }
+  
+  
+   
+  /* 1400*/
+  
+  @media only screen and (max-width: 1400px) {
+  .blaadje6{
+    display: none;
+  }
+  .blaadje5{
+    display: none;
+  }
+  .title{
+    margin-left: 100px;
+  }
+  .headerpicture2{
+    margin-right:5%;
+    padding-top: 0px;
+  }
+  .inhoud{
+    width: 500px;
+    margin-left: 90px;
+  }
+  .kopje1{
+   margin-top: 200px;
+   width: 500px;
+  }
+  .kopje2{
+    width: 500px;
+  }
+  .kopje3{
+    width: 500px;
+  }
+  .kopje4{
+    width: 500px;
+    margin-left: 600px;
+  }
+  .kopje5{
+    width: 500px;
+  }
+  .blond{
+    width: 250px;
+    height: 250px;
+    margin-top:70px;
+  
+  }
+  .kopje6{
+    width: 500px;
+  }
+  .kopje7{
+    width: 500px;
+  }
+  .kopje8{
+    width: 500px;
+  }
+  .kopje9{
+    width: 500px;
+    font-size: 12px;
+  }
+  .bottom{
+    margin-top: 800px;
+  }
+  .grijsblockbottom{
+    display: none;
+  }
+  .groenblockbottom{
+    display: none;
+  }
+  .article7{
+  display: none;
+  }
+  .article5{
+    display: none;
+  }
+  .article6{
+    display: none;
+  }
+  .footer2{
+    margin-top: 500px;
+  }
+  .bottom3 h2{
+   display: none;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* 1135*/
+  @media only screen and (max-width: 1135px){
+  
+  .roots2{
+    font-size: 70px;
+   margin-left: 40%;
+   
+  
+  }
+  .header2{
+    height: 160px;
+  }
+  .headerpicture2{
+    width: 300px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 20px;
+  float: none;
+  }
+  .title{
+  font-size: 30px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .inhoud{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 25px;
+  }
+  .kopje1{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .middenstuk{
+    height: 6200px;
+  }
+  
+  .kopje2{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .blaadje7{
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+  }
+  .quote3{
+    font-size: 50px;
+    margin: 0 auto;
+  }
+  .groen{
+    height: 40px;
+    margin-top: 10px
+  }
+  .grijs{
+    height: 40px;
+  }
+  .roze{
+    height: 70px;
+  }
+  .kopje3{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .kopje4{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .kopje5{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    float: none;
+    font-size: 25px;
+  }
+  .kopje6{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    float: none;
+    font-size: 25px;
+  }
+  .kopje7{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    float: none;
+    font-size: 25px;
+  }
+  .kopje8{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    float: none;
+    font-size: 25px;
+  }
+  
+  .blaadje13{ display: none; }
+  
+  .kopje9{
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+    float: none;
+    font-size: 18px;
+  }
+  .middenstuk p{
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 25px;
+    width: 500px;
+    float: none;
+  }
+  .blaadje11{
+  height: 150px;
+  float: left;
+  margin-left: 2%;
+  }
+  .blaadje12{
+    display: none;
+  }
+  .quote4{
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .groenblock3{
+    height: 60px;
+  }
+  .rozeblock5{
+    height: 40px;
+  }
+  .blond{
+    margin-left: 35%;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    float: none;
+  }
+  .quote5{
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 30px;
+    float: none;
+  }
+  .blaadje13{
+    height: 150px;
+  }
+  .blaadje14{
+    height: 150px;
+    margin-left: 2%;
+  }
+  
+  .groenblockbottom{
+    height: 30px;
+    margin-left: -230px;
+    width: 225%;
+    margin-top: -5px;
+  }
+  .grijsblockbottom{
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -230px;
+    width: 225%;
+  }
+  .article7{
+    margin-top: 370px;
+  }
+  .bottom3 h2{
+    margin-top: 50px;
+  }
+  .middenstuk{
+    height:6000px;
+  }
+  .footer2{
+    margin-top: 500px;
+  }
+  }
+  
+  /* 900*/
+  @media only screen and (max-width: 900px){
+  .headerpicture2{
+    width: 200px;
+    height: 200px;
+  }
+    .title{
+    font-size: 20px;
+    margin-left: 25%;
+    width: 400px;
+    }
+    .inhoud{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje1{
+      width: 400px;
+      font-size: 20px;
+    }
+    .middenstuk{
+      height: 6300px;
+    }
+    
+    .kopje2{
+      width: 400px;
+      font-size: 20px;
+    }
+    .blaadje7{
+      width: 100px;
+      height: 100px;
+    }
+    .quote3{
+      font-size: 20px;
+    }
+    .kopje3{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje4{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje5{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje6{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje7{
+      width: 400px;
+      font-size: 20px;
+    }
+    .kopje8{
+     width: 400px;
+     font-size: 20px;
+    }
+  
+    .kopje9{
+      width: 400px;
+      font-size: 15px;
+    }
+    .middenstuk p{
+      width: 400px;
+      font-size: 20px;
+    }
+    .blaadje11{
+    height: 150px;
+    float: left;
+    }
+    .blaadje12{
+      display: none;
+    }
+    .quote4{
+      font-size: 30px;
+      padding-top: 30px;
+    }
+    .groenblock3{
+      height: 60px;
+    }
+    .rozeblock5{
+      height: 40px;
+    }
+    .blond{
+      margin-left: 30%;
+      width: 200px;
+      height: 200px;
+      padding-top: 30px;
+    }
+    .quote5{
+      font-size: 30px;
+      padding-top: 30px;
+    }
+    .blaadje13{
+      height: 100px;
+    }
+    .blaadje14{
+      height: 100px;
+    }
+    
+    .groenblockbottom{
+      height: 30px;
+      margin-left: -230px;
+      width: 225%;
+      margin-top: -5px;
+    }
+    .grijsblockbottom{
+      height: 20px;
+      margin-top: -10px;
+      margin-left: -230px;
+      width: 225%;
+    }
+    .article7{
+      margin-top: 370px;
+    }
+    .bottom3 h2{
+      margin-top: 50px;
+    }
+    .middenstuk{
+      height: 5800px;
+    }
+    .footer2{
+      margin-top: 500px;
+    }
+    }
+    
+  
+  /* 873*/
+  @media only screen and (max-width: 873px){
+  .footer2{
+    margin-top: 700px;
+  }
+  
+  .middenstuk{
+    height: 5600px;
+  }
+  }
+  
+  
+  
+  /* 700*/
+  @media only screen and (max-width: 700px){
+  .title{
+    margin-left: 10%;
+  }
+  .blaadje7{
+   height: 100px;
+   width: 100px;
+   margin-left: 0%
+  }
+  .blaadje11{
+    height: 100px;
+    width: 100px;
+    margin-left: 0%
+  }
+  .blaadje14{
+    height: 100px;
+    width: 100px;
+    margin-left: 0%
+  }
+  .footer2{
+   margin-top: 700px;
+   height: 150px
+  }
+  }
+  
+  
+  

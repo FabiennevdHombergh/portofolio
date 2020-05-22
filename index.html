@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 0</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepagina</a></li>
+            <li><a href="projecten.html">Projecten</a></li> 
+            <li><a href="#" id='accoBtn'>Aan</a></li>
+        </ul>
+    </nav>
+ 
+</header>
+
+
+<main>
+
+    <div class="img-background">
+        <img src="img/rect.png" alt="img-background">
+    </div>
+    <article>
+
+       
+        <header>
+
+            <h1>Communication and multi media studente </h1>
+            <h2>Fabiënne van den Hombergh</h2>
+            <div class="text">
+                ☆ Creatieve Concepten ☆ Fotografie ☆ Graphic Design ☆ 
+            </div>
+                <div class="text2">
+             ☆ Webdesign ☆ Videografie ☆ Storytelling ☆ 
+            </div>
+            <a href="https://github.com/FabiennevdHombergh">
+                 <div class="img3">
+            <img src="img/128-1280192_github-logo-png-github-png-transparent-png.png" alt="github">
+        </div>
+            </a>
+            <a href="https://www.instagram.com/fabiennevdhombergh/?hl=nl">
+        <div class="img4">
+            <img src="img/1-14528_instagram-logo-png-transparent-background-instagram-logo-png.png" alt="instagram">
+        </div>
+    </a>
+        <div class="clear"></div>
+        </header>
+        <div class="img">
+            <img src="img/Schermafbeelding 2020-05-22 om 09.40.57.jpeg" alt="me">
+        </div>
+        <!-- <div class="img2">
+            <img src="img/3A138666-3C6A-49E6-B7D8-D7C4B2EFC2F0_1_105_c.jpeg" alt="me2">
+        </div> -->
+        <div class="clear"></div>
+
+
+        <!-- <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.
+        </p>
+        <p id="beep">
+            My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. 
+            Jackie Brown (1997)
+        </p> -->
+       
+        <div class="ac" id="accordion">
+            <h3>Over mij</h3>
+            <div>
+              <p>
+              Hey allemaal, mijn naam is Fabienne van den Hombergh en ik ben een eerste jaars studente aan de opleiding Communication en MultiMedia Design aan de ZUYD hogeschool in Maastricht.
+              <br>
+              In mijn nog maar korte ervaring heb ik wel al een aantal leuke projecten voltooid.
+              <br> Kijk snel bij projecten om mijn voltooide projecten te bewonderen.
+              </p>
+            </div>
+            <h3>Verleden</h3>
+            <div>
+              <p>
+              Ik heb gestudeerd aan de HAVO op het Lyceum Schöndeln in Roermond. 
+              <br>Deze studie heb ik in 5 jaar afgerond. 
+              <br>Ik had het vakkenpakket E&M en C&M.
+              </p>
+            </div>
+            <h3>Andere Specialiteiten</h3>
+            <div>
+              <p>
+              Boven mijn passie voor Web development ben ik ook gespecialiseerd in Dwarsfluit spelen.
+              <br>
+              Ik heb al meerdere malen in het concert gebouw mogen spelen en heb ook al vaker mee gedaan aan de Nederlandse Fluit Academie.
+              <br>
+              In 2016 heb ik voor het eerst de Nederlandse titel op mijn naam mogen zetten in de 5e divisie.
+              In 2019 werd ik zowel Limburgs als Nederlands Kampioen in de 3e Divisie.
+              <br>
+              Ook heb ik in de finale van het TV programma Talent & Co gestaan, dit was een Limburgs TV programma.
+              <br><br>
+              Daarbij heb ik ook al wat presenteer ervaring.
+              Ik heb al meerdere malen zowel live als niet live op de radio mijn verhaal mogen doen.
+              <br>
+              In 2019 mocht ik het Eindexamenjournaal voor het nationale online programma Scholieren.com presenteren.
+              </p>
+            </div>
+   </div>
+           
+        <div class="clear"></div>
+
+        <footer>
+            <p>
+                ☆ Creatieve Concepten ☆ Fotografie ☆ Graphic Design 
+             ☆ Webdesign ☆ Videografie ☆ Storytelling ☆ 
+            </p>
+        </footer>
+    </article>   
+</main>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        var fontColor = '#00000';
+        var font = '"Comic Sans MS", cursive, sans-serif';
+        $( document ).ready(function() {
+            $('#blackHeading').click(function(){
+                $('h1').css({'color':fontColor});
+            });
+            $('#comicSans').click(function(){
+                $('a, h1, p').css({'font-family':font});
+            });
+        });
+
+        $(document).ready(function() {
+   
+   $('#accoBtn').click(function(){    
+      if ( $(this).hasClass('active') ) {
+         $(this).removeClass('active');
+         $( "#accordion" ).accordion( "disable" );
+         $('#accoBtn').css({
+             "background-color":'red'
+         })
+         $('#accoBtn').text('Uit');  
+
+     } else { 
+         $(this).addClass('active'); 
+         $( "#accordion" ).accordion( "enable" );
+         $('#accoBtn').css({
+             "background-color":'green'
+         })
+         $('#accoBtn').text('Aan');
+     }
+  
+  });
+  
+});
+ 
+$( document ).ready(function() {
+		$( "#accordion" ).accordion({ animate: 800, heightStyle: "content" });
+	});
+        function myFunction() {
+            var x = document.getElementById("beep");
+            if (x.innerHTML === "My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. \n" +
+                "                Jackie Brown (1997)") {
+                x.innerHTML = "My money's in that office, right? If she start giving me some *beep* about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that *beep* in the kneecaps, find out where my *beep* money is. She gonna tell me too. Hey, look at me when I'm talking to you, *beep*. \n" +
+                    "                Jackie Brown (1997)";
+            } else {
+                x.innerHTML = "My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. \n" +
+                    "                Jackie Brown (1997)";
+            }
+        }
+    </script>
+
+</body>
+</html>
